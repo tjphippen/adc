@@ -1,0 +1,29 @@
+{
+    "name": "tjphippen/adc",
+    "description": "Alarm.com API Connector for Laravel 5",
+    "keywords": ["laravel", "alarm.com", "laravel 5", "api", "alarm"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TJ Phippen",
+            "email": "tj@tjphippen.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0",
+        "illuminate/support": "~5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tjphippen\\Adc\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
